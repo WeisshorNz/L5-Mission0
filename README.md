@@ -15,10 +15,10 @@ Features
 
     Carousel with Search Form: 
     The homepage includes a dynamic carousel showcasing various aspects of the school. 
-    It also includes a search form that allows users to search for specific information within the website.
+    It also includes a search form that allows users to search for specific information within the website(not functional).
 
     Informational Cards: 
     The website presents information using visually appealing cards. 
-    These cards are used to highlight different programs, courses, or events at the school.
+    These cards are used to highlight different sport programs, facilities for international students, and events at the school.
 
-    Designed and implemented by Luis Rodriguez
+    Designed and implemented by Luis Rodríguez
