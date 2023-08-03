@@ -1,0 +1,24 @@
+/* Resizing carousel images */
+.carousel-item {
+  height: 90vh;
+}
+.carousel-image {
+  height: 100% !important;
+}
+/* Outline border on text over carousel images */
+.outline-text {
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+  color: #dc143c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.txt-font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* School name resize for smaller screens */
+ @media (max-width: 767px) {
+        .school-name {
+            font-size: 1rem;
+        }
+
+    }
