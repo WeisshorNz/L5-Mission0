@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Beach Haven Primary</title>
-    <link rel="stylesheet" href="style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="style.css">
 
+     <!---CSS rule to style button on search element as it won't take if from styles.css-->
+    <style>
+    .btn-maroon {
+        background-color: maroon;
+        color: rgb(244, 245, 247);
+    }
+</style>
 </head>
 
     <header>
-        <!-- Nav bar section -->
+                                                                                   <!--NavBar Section-->
 		<nav class="navbar navbar-expand-lg txt-font">
-            
 			<div class="container-fluid d-flex">
 				<a class="navbar-brand text-black fs-2 pt-2" href="#">
 					<img
@@ -24,8 +30,8 @@
 						width="100"
 						height="70"
 						class="d-inline-block align-text-center"
-                    /> <span class="school-name">Beach Haven Primary School</span>
-				</a> 
+					/> <span class="school-name">Beach Haven Primary School</span>
+				</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -54,24 +60,10 @@
 		</nav>
     </header>
 
-   <!-- style for search button as it won't take if from styles.css   -->
-<style>
-    .btn-maroon {
-        background-color: rgb(189, 91, 91);
-        color: rgb(244, 245, 247);
-    }
-</style>
-   
-    
-</body>
-</html>
-
-
     <body>
 
         <div class="main-container position-relative">
-
-            <!-- Carousel section -->
+            <!---Carousel Section-->
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -86,8 +78,7 @@
             </div>
         </div>
     </div>
-
-    <!-- Main text over carousel -->
+    <!---Main Text element over carousel images-->
 
     <div class="main-text position-absolute top-50 start-0 translate-middle-y text-start text-white ps-5 ps-md-0 mx-5">
    <p class="fs-2 my-0 outline-text">Welcome to</p>
@@ -95,8 +86,7 @@
    <p class="fs-1 fw-bold outline-text">Primary School</p>
 </div>
 
-     <!-- Search element -->
-
+<!--Form and search button over carousel images-->
  <div class="search-container position-absolute bottom-0 start-50 translate-middle-x mb-5 pb-5">
         <form class="form-inline d-flex align-items-center">
             <div class="d-inline-block">
@@ -104,18 +94,15 @@
                     <input type="text" class="form-control" placeholder="Search">
                 </div>
             </div>
-    
+
             <div class="d-inline-block">
                 <button class="btn btn-outline-dark btn-maroon" type="submit">Search</button>
             </div>
         </form>
     </div>
 </div>
-   
     </div>
-
-<!-- cards section -->
-
+                                   <!--Cards Section-->
 <div class="card-container row justify-content-center pt-5 mx-5">
     <div class="card col-md-4 mb-4">
         <div class="p-3">
@@ -150,6 +137,6 @@
         </div>
     </div>
 </div>
-    
+
 </body>
 </html>
